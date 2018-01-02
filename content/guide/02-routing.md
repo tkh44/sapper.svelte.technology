@@ -20,7 +20,7 @@ For example, here's how you could create a page that renders a blog post:
 <h1>{{post.title}}</h1>
 
 <div class='content'>
-	{{{post.html}}}
+	{{post.html}}
 </div>
 
 <script>
